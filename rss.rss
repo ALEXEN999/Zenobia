@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Con la etiqueta rss empieza el codigo rss -->
+<rss version="2.0">
+  <!-- Con la etiqueta channel crearemos nuestros canales, podemos tener tantos como queramos. En mi caso he creado un channel de mi canal de YouTube para verlo mas claro -->
+<channel>
+  <!-- Con la etiqueta language elegimos el lenguaje claramente -->
+<language>es-es</language>
+<!-- Con esta etiqueta title elegiremos el titulo de nuestro channel, como este channel es de mi canal, le pondré de title el nombre de mi canal. -->
+  <title>ALEXEN</title>
+  <!-- Con esta etiqueta link pondremos el link o url de en mi caso mi canal -->
+  <link>https://www.youtube.com/c/ALEXEN999</link>
+  <!-- Y como no, su descripción con la etiqueta description. -->
+  <description>ALEXEN YouTube channel</description>
+  <!-- Aquí pondremos una imagen a nuestro channel en mi caso he puesto la imagen de la letra 'A', para ello basicamente utilizamos la etiqueta image, y dentro de ella su contenido. -->
+  <image>
+    <!-- Aquí el titulo de nuestra imagen con title -->
+    <title>ALEXEN logo</title>
+    <!-- Con la etiqueta url pondremos la dirección de nuestra imagen -->
+    <url>https://i.pinimg.com/originals/1c/2e/01/1c2e012b0a2cb334ff1e69c8a43619dc.jpg</url>
+    <!-- Y con link pondremos el enlace de la imagen, es decir a donde te va a llevar -->
+    <link>https://www.youtube.com/c/ALEXEN999</link>
+  </image>
+  <!-- Con la etiqueta de category elegiremos la categoria de nuestro channel. -->
+  <category>YouTube Channel</category>
+  <!-- Los item los podemos ver como entradas, o en mi caso como videos o publicaciones, por ejemplo un video tiene su titulo, su link y su descripción. -->
+  <item>
+    <title>El EUROGALLO</title>
+    <link>https://www.youtube.com/watch?v=nKaeM88w3RE</link>
+    <description>EUROGALLO | GALLO EUROVISION ESPAÑA | MANEL NAVARRO 2017</description>
+  </item>
+  <item>
+    <title>Harry Potter Parodia</title>
+    <link>https://www.youtube.com/watch?v=wVtsWOtD0Sc</link>
+    <description>Harry Potter Parodia de Ylenia</description>
+  </item>
+</channel>
+</rss>
