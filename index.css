@@ -1,0 +1,19 @@
+body{
+  margin: 0px;
+  position: absolute;
+}
+.marco{
+  width: 50%;
+  float: left;
+  margin: 0px;
+}
+.content img{
+  width: 100%;
+  margin: 0px;
+  display: grid;
+}
+img{
+height: 50vh;
+margin: 0px;
+
+}
